@@ -1,0 +1,20 @@
+.paginationContainer {
+  display: flex;
+  list-style: none;
+}
+
+.paginationContainer li {
+  margin: 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  height: 50px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginationContainer li.disabledLi {
+  pointer-events: none;
+  opacity: 0.4;
+}
